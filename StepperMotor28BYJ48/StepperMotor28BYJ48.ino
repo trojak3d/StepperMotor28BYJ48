@@ -174,12 +174,12 @@ void handleRoot() {
 }
 
 void start() {
-	Serial.println("Start:");
+	Serial.println("Start");
 	isRunning = true;
 }
 
 void stop() {
-	Serial.println("Stop:");
+	Serial.println("Stop");
 	isRunning = false;
 }
 
